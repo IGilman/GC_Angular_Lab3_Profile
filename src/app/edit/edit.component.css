@@ -1,0 +1,42 @@
+.image-container{
+    background-color: #1ECEFD;
+
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-hone{
+    color: #505355;
+    font-size: medium;
+    font-weight: 999;
+}
+
+label{
+    color: #1ECEFD;
+    font-weight: 900;
+}
+
+input{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 10px;
+}
+
+.update{
+    border-style: solid;
+    background-color: #505355;
+    color: white;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 10px;
+    font-weight: bold;
+}

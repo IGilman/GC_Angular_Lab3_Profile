@@ -1,0 +1,16 @@
+<div class="form-container">
+    <h1 class="form-hone">Use the form below to update your profile</h1>
+    <!-- edit profile is a method that needs a form. Profile form is an object of the current state of the form. 
+        The reference to that form is calle "profileForm" -->
+    <form class="form" #profileForm="ngForm" (ngSubmit)="editProfile(profileForm)">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" ngModel>
+        <label for="contact">Contact</label>
+        <input type="text" name="contact" id="contact" ngModel>
+        <label for="bio">Bio</label>
+        <input type="text" name="bio" id="bio" ngModel>
+        <!-- i didn't figure how to make the input box bigger
+        need to use a textarea? -->
+        <button class="update">Update</button>
+    </form>
+</div>

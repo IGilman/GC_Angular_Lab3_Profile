@@ -1,0 +1,25 @@
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.data-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* how do I get this to fill the size of the Profile-Contianer?? */
+}
+
+.profile-contact{
+    color: #EEE;
+}
+.profile-edit{
+    background-color: #505355;
+    color: white;
+    border-radius: 10px;
+    padding: 10;
+    border-style: none;
+    border-width: 0;
+}

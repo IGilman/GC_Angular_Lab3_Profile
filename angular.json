@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-lab3-profile"
+    }
+  },
+  "defaultProject": "angular-lab3-profile",
+  "cli": {
+    "analytics": "84aed31e-10a6-4c44-b7d1-8d221f40ecbe"
+  }
 }
